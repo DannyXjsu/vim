@@ -2,6 +2,10 @@
 
 " bg light shit
 set bg=light
+
+" makes things better to see on dark bg (ik i can change the bg to dark but the colors kinda sucks)
+color desert
+
 " highlights search
 set hlsearch
 " immediately search
@@ -35,5 +39,5 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 set splitbelow splitright
 
-autocmd BufWritePre * %s/\s/+$//e
-
+" i keep getting errors with this
+" autocmd BufWritePre * %s/\s/+$//e
